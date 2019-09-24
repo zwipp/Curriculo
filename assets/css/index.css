@@ -17,10 +17,6 @@ header{
     margin-bottom: 15px;
 }
 
-header nav {
-    width: 1400px;;
-}
-
 header nav div{
     display: flex;
     justify-content: flex-end;
