@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif; 
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+header nav {
+    width: 1400px;;
+}
+
+header nav div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#sobre{
+    display: flex;
+    padding: 75px;
+    background-image: url(../img/fundo.jpg);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.foto .historia{
+    width: 50%;
+    margin: 15px;
+}
+.foto div img{
+    border-radius: 50%;
+    height: 250px;
+    box-shadow: 4px 4px 4px 4px rgb(171, 212, 180);
+}
+
+.nome{
+    margin: 10px;
+}
+
+.historia p{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#linguagens div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+#linguagens div div div{
+    display: flex;
+    flex-direction: row;
+}
+
+.conecidas div a img{
+    width: 125px;
+    padding: 10px;
+}
+
+.conecidas div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    width: auto;
+    border: 0.5px solid rgba(170, 151, 151, 0.712);
+}
+
+.iconi_cont div a img{
+    height: 50px;
+}
+
+.iconi_cont {
+    width: 960px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo_cont{
+    display: flex;
+    justify-content: center;
+}
+
+.cont a{
+    color: black;
+}
+
+.carrocel{
+    border: 0.5px solid rgba(170, 151, 151, 0.712);
+    margin-bottom: 25px;
+}
+
+#trabalhos{
+    margin-bottom: 25px;
+}
+
+.titulo_cont h3 a{
+    color: black;
+}
